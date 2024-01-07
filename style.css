@@ -84,6 +84,8 @@
   background-color: #2a649f;
 }
 
+/************** RESPONSIVE OF NAVBAR ************/
+
 @media (max-width: 62em) {
   .navbar {
     flex-direction: column;
@@ -126,10 +128,8 @@
 }
 
 .first-container-first-box {
-  /* border: 2px solid black; */
   width: 70%;
   text-align: center;
-  /* position: relative; */
 }
 
 .text-div {
@@ -162,7 +162,6 @@
 .text-div button:hover {
   color: #fff;
   background-color: #2a649f;
-  /* transition: all(0.5s); */
 }
 
 .img-div {
@@ -176,6 +175,8 @@
   top: -100px;
   left: 0px;
 }
+
+/**** CSS OF FIRST CONTAINER SECOND BOX ***/
 
 .first-container-second-box {
   background-color: #1c7cdb;
@@ -196,8 +197,8 @@
   transition: transform 0.2s ease-in-out;
 }
 
-.second-box-img:hover{
-  transform: scale(1.1);  
+.second-box-img:hover {
+  transform: scale(1.1);
 }
 
 .first-container-second-box-img {
@@ -205,4 +206,53 @@
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin: 2rem;
+}
+
+/************** RESPONSIVE FIRST CONTAINER ************/
+
+@media (max-width: 62em) {
+
+  /* FIRST CONTAINER  FIRST BOX*/
+
+  .first-container {
+    flex-direction: column;
+  }
+  
+  .first-container-first-box {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* FIRST CONTAINER SECOND BOX */
+
+  .first-container-second-box {
+    flex-direction: column;
+    display: block;
+    width: 100%;
+  }
+  
+  /* .first-container-second-box h2 {
+    color: #fff;
+    text-align: center;
+    margin: 6rem 1rem;
+  }
+  .second-box-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 25px 0 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .second-box-img:hover {
+    transform: scale(1.1);
+  }
+  
+  .first-container-second-box-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 2rem;
+  } */
+
 }
