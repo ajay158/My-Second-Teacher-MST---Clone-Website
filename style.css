@@ -17,6 +17,8 @@
   justify-content: start;
   align-items: center;
   text-align: center;
+  position: sticky;
+  z-index: 100;
 }
 
 .logo img {
@@ -93,7 +95,7 @@
   }
 
   .nav-menu ul {
-    margin-top: 2rem;
+    margin-top: 2rem 2rem;
   }
 
   .button {
@@ -154,14 +156,17 @@
   color: #fff;
   background-color: #2188ee;
   border: none;
+  cursor: pointer;
   padding: 10px 25px;
   border-radius: 25px;
   margin-top: 1rem;
+  transition: transform 0.2s ease-in;
 }
 
 .text-div button:hover {
   color: #fff;
   background-color: #2a649f;
+  transform: scale(1.1);
 }
 
 .img-div {
@@ -171,7 +176,7 @@
 .my-image {
   position: absolute;
   width: 100%;
-  height: 32rem;
+  height: 36rem;
   top: -100px;
   left: 0px;
 }
@@ -211,13 +216,12 @@
 /************** RESPONSIVE FIRST CONTAINER ************/
 
 @media (max-width: 62em) {
-
   /* FIRST CONTAINER  FIRST BOX*/
 
   .first-container {
     flex-direction: column;
   }
-  
+
   .first-container-first-box {
     width: 100%;
     text-align: center;
@@ -226,33 +230,44 @@
   /* FIRST CONTAINER SECOND BOX */
 
   .first-container-second-box {
-    flex-direction: column;
-    display: block;
     width: 100%;
+    margin-top: 25rem;
   }
-  
-  /* .first-container-second-box h2 {
-    color: #fff;
-    text-align: center;
-    margin: 6rem 1rem;
-  }
+
   .second-box-img {
     width: 100%;
     height: 100%;
     border-radius: 0 25px 0 25px;
-    cursor: pointer;
-    transition: transform 0.2s ease-in-out;
   }
-  
-  .second-box-img:hover {
-    transform: scale(1.1);
-  }
-  
-  .first-container-second-box-img {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    margin: 2rem;
-  } */
 
+  .first-container-second-box-img {
+    gap: 2rem;
+  }
+}
+
+/* SECTION SECOND CONTAINR */
+
+.second-container {
+  position: relative;
+}
+
+.second-container img {
+  width: 100%;
+}
+
+.second-container-heading {
+  position: absolute;
+ 
+}
+
+.second-container-heading li{
+  list-style: none;
+  display: inline-block;
+  margin: 3rem 0;
+}
+
+.second-container-heading a {
+  color: #fff;
+  text-decoration: none;
+  margin: 2rem 2rem;
 }
