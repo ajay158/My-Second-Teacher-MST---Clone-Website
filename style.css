@@ -57,7 +57,7 @@
   justify-content: end;
   align-items: center;
   gap: 1rem;
-  margin-left: 12rem;
+  margin-left: 8rem;
 }
 
 .login-button button {
@@ -66,6 +66,7 @@
   border: none;
   padding: 10px 25px;
   border-radius: 25px;
+  background-color: #fff;
 }
 
 .login-button button:hover {
@@ -79,6 +80,10 @@
   border: none;
   padding: 12px 20px;
   border-radius: 25px;
+}
+
+.register-button button span {
+  font-size: 10px;
 }
 
 .register-button button:hover {
@@ -130,7 +135,7 @@
 }
 
 .first-container-first-box {
-  width: 70%;
+  width: 72%;
   text-align: center;
 }
 
@@ -186,13 +191,14 @@
 .first-container-second-box {
   background-color: #1c7cdb;
   width: 30%;
-  text-align: center;
 }
 
 .first-container-second-box h2 {
   color: #fff;
   text-align: center;
-  margin: 6rem 1rem;
+  margin: 0rem 1rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
 }
 .second-box-img {
   width: 100%;
@@ -249,11 +255,12 @@
 
 .second-container {
   position: relative;
+  top: 6px;
 }
 
 .second-container img {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 
 .second-container-heading {
@@ -283,15 +290,19 @@
   padding: 1.5rem 0;
   text-align: center;
   font-size: 1rem;
-  /* transform: translateY(-20%); */
 }
 
-.section a:hover {
+.sectio,
+.active {
+  color: #ccf8c7;
+  background-color: #4d6377;
+  border-radius: 25px;
+}
+/* .section a:hover {
   color: rgb(167, 255, 167);
   background-color: #4c6377;
   border-radius: 25px;
-  /* transform: translateY(-50%); */
-}
+} */
 
 sub-section {
   display: flex;
@@ -301,6 +312,9 @@ sub-section {
 
 .sub-section-first-box {
   max-width: 40%;
+  position: absolute;
+  top: -30rem;
+  left: 9rem;
 }
 
 .sub-section-first-box img {
@@ -310,11 +324,138 @@ sub-section {
   border-radius: 0.6rem;
 }
 
+.sub-section-first-box,
+h2,
+p,
+button {
+  margin-top: 1rem;
+  color: #fff;
+}
+
+button {
+  font-size: 1rem;
+  color: #fff;
+  background-color: #2188ee;
+  border: none;
+  cursor: pointer;
+  padding: 10px 25px;
+  border-radius: 25px;
+}
+
 .sub-section-second-box {
-  max-width: 60%;
+  /* max-width: 60%; */
+  position: absolute;
+  top: -30rem;
+  left: 50rem;
 }
 
 .sub-section-second-box img {
-  max-width: 50%;
+  max-width: 70%;
   height: auto;
+  margin-top: 1rem;
+}
+
+/* THIRD SECTION */
+
+.third-section {
+  position: relative;
+}
+
+.third-section-img img {
+  max-width: 100%;
+}
+
+.img2 {
+  position: absolute;
+  top: 19.3rem;
+  left: 0;
+}
+
+.third-section-child {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.third-section-text {
+  position: absolute;
+  top: 32rem;
+  left: 12rem;
+}
+
+.third-section-text h2 {
+  color: #3a3d5e;
+}
+.third-section-text p {
+  color: #4c6377;
+}
+
+.img-teacher {
+  position: absolute;
+  top: 20rem;
+  right: 5rem;
+}
+
+/* css of fourth section */
+
+.fourth-section {
+  background-color: #f2f8ff;
+  text-align: center;
+  /* align-items: center; */
+}
+.fourth-section h2 {
+  color: black;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.fourth-section img {
+  max-width: 70%;
+  max-height: 70%;
+  margin-bottom: 3rem;
+}
+
+/* CSS FOR FIFTH SECTION */
+
+.fifth-section {
+  /* background-color: red; */
+}
+
+.fifthsection-text {
+  justify-content: center;
+  text-align: center;
+}
+
+.fifthsection-text h2 {
+  color: #000000;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.fifthsection-text p {
+  color: #9fa0a7;
+}
+
+.fifthsection-box{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fifthsection-img{
+  border: 2px solid black;
+  max-width: 100%;
+  margin: 3rem 5rem;
+}
+
+.fifthsection-img img {
+  width: 80%;
+}
+
+.fifthsection-img h4{
+  color: #3A3D5E;
+  text-align: center;
+}
+.fifthsection-img p{
+  color: #9fa0a7;
+  text-align: center;
 }
