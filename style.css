@@ -401,7 +401,7 @@ button {
 .fourth-section {
   background-color: #f2f8ff;
   text-align: center;
-  /* align-items: center; */
+  align-items: center;
 }
 .fourth-section h2 {
   color: black;
@@ -421,6 +421,17 @@ button {
   /* background-color: red; */
 }
 
+hr,
+.line {
+  margin-top: 2rem;
+  border-style: dashed;
+  border-color: #333;
+  border-width: 1px;
+  margin: 20px 0;
+  width: 100%;
+  /* transform: rotate(90deg); */
+}
+
 .fifthsection-text {
   justify-content: center;
   text-align: center;
@@ -436,26 +447,135 @@ button {
   color: #9fa0a7;
 }
 
-.fifthsection-box{
- display: grid;
- grid-template-columns: 1fr 1fr 1fr;
+.fifthsection-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  width: 85%;
+  margin: auto;
+  /* align-items: center; */
+  text-align: center;
 }
 
-.fifthsection-img{
-  border: 2px solid black;
+.fifthsection-img {
+  /* border: 2px solid black; */
   max-width: 100%;
-  margin: 3rem 5rem;
+  margin-top: 3rem;
+  margin-left: 1.8rem;
 }
 
 .fifthsection-img img {
-  width: 80%;
+  width: 40%;
 }
 
-.fifthsection-img h4{
-  color: #3A3D5E;
+.fifthsection-img h4 {
+  color: #3a3d5e;
   text-align: center;
 }
-.fifthsection-img p{
+.fifthsection-img p {
   color: #9fa0a7;
   text-align: center;
+  font-size: 0.8rem;
+}
+
+/* CSS OF SIXTHSECTION */
+
+.sixthsection {
+  background-color: #f2f8ff;
+  margin-top: 5rem;
+  padding-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+.sixthsection-text span {
+  font-size: 13px;
+  font-weight: 100;
+  color: #9fa0a7;
+}
+
+.sixthsection h3 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sixthsectionbox {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 1rem;
+  width: 50%;
+  margin: auto;
+  padding: 0 3rem 7rem 3rem;
+}
+
+.sixthsectionimg img {
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.sixthsection-text h4 {
+  margin-top: 2rem;
+}
+
+.sixthsectionpara {
+  margin-top: 0;
+}
+.sixthsection-text p {
+  color: #9fa0a7;
+}
+
+/* CSS OF SEVENTH SECTION */
+
+.seventhsection {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5rem 0rem;
+}
+
+/* .seventsectinright-box{
+  max-width: 100%;
+} */
+
+.seventhsectionleft-box img {
+  cursor: pointer;
+}
+
+.seventhsectionleft-box h4 {
+  font-size: 2.2rem;
+}
+
+.seventhsectionleft-box p {
+  color: #9fa0a7;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* CSS FOR FOOTER */
+
+.footer {
+  background-color: #1c7cdb;
+  padding: 3rem 2rem 8rem 0;
+  
+}
+
+.footer p{
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.div1 img{
+  width: 70%;
+}
+
+.icons{
+  color: #fff;
+  padding: 2rem 0rem;
+}
+
+i{
+  margin-right: 1rem;
+  cursor: pointer;
 }
