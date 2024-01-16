@@ -554,28 +554,121 @@ hr,
 
 .footer {
   background-color: #1c7cdb;
-  padding: 3rem 2rem 8rem 0;
-  
+  padding: 3rem 0rem 2rem 3rem;
 }
 
-.footer p{
+.footer-txt p {
+  font-size: 12px;
   text-align: center;
+  padding-top: 2rem;
 }
 
 .footer-container {
   display: flex;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
-.div1 img{
-  width: 70%;
+.div1 img {
+  width: 40%;
 }
 
-.icons{
+.icons {
   color: #fff;
   padding: 2rem 0rem;
 }
 
-i{
+i {
   margin-right: 1rem;
   cursor: pointer;
+}
+
+.div2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+
+.div2 p {
+  color: #7ca3d7;
+  font-size: 12px;
+}
+
+.div2 a {
+  color: #fff;
+  text-decoration: none;
+  padding-top: 1rem;
+  font-size: 15px;
+}
+
+.div3 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+
+.div3 p {
+  color: #7ca3d7;
+  font-size: 12px;
+}
+
+.div3 a {
+  color: #fff;
+  text-decoration: none;
+  padding-top: 1rem;
+  font-size: 15px;
+}
+
+.div4 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+
+.div4 p {
+  color: #7ca3d7;
+  font-size: 12px;
+}
+
+.div4 a {
+  color: #fff;
+  text-decoration: none;
+  padding-top: 1rem;
+  font-size: 15px;
+}
+
+.div5 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+
+.div5 p {
+  color: #7ca3d7;
+  font-size: 12px;
+}
+
+.div5 a {
+  color: #fff;
+  text-decoration: none;
+  padding-top: 1rem;
+  font-size: 15px;
+}
+
+.div6 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+
+.div6 p {
+  color: #7ca3d7;
+  font-size: 12px;
+}
+
+.div6 a {
+  color: #fff;
+  text-decoration: none;
+  padding-top: 1rem;
+  font-size: 15px;
 }
