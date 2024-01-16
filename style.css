@@ -7,7 +7,11 @@
 }
 
 /**NAVBAR STYLE**/
-
+header{
+  position: sticky;
+            top: 0;
+            z-index: 100;
+}
 .navbar {
   background-color: #206bb5;
   color: #fff;
@@ -17,8 +21,6 @@
   justify-content: start;
   align-items: center;
   text-align: center;
-  position: sticky;
-  z-index: 100;
 }
 
 .logo img {
@@ -482,9 +484,7 @@ hr,
 
 .sixthsection {
   background-color: #f2f8ff;
-  margin-top: 5rem;
-  padding-top: 4rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .sixthsection-text span {
@@ -494,7 +494,9 @@ hr,
 }
 
 .sixthsection h3 {
+  padding-top: 3rem;
   text-align: center;
+  margin-top: 5rem;
   margin-bottom: 3rem;
 }
 
@@ -506,6 +508,7 @@ hr,
   width: 50%;
   margin: auto;
   padding: 0 3rem 7rem 3rem;
+  margin-bottom: 5rem;
 }
 
 .sixthsectionimg img {
